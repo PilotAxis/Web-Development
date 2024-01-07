@@ -1,19 +1,16 @@
 "use strict";
-/*
-var global = 500;
-function testfunction(){
-    var local = 200;
-    console.log(global);
-    console.log(local);
-}
-testfunction()
-console.log(global);
-console.log(local);
-*/
-
-let counter = 10;
+let number = 10;
+console.log(number);
 {
-    let counter = 20;
-    console.log(counter);
+    number = 20;
+    let num = 5
+    console.log(number);
+    {
+        var mum = 6;
+        console.log(number);
+        console.log(num);
+    }
 }
-console.log(counter);
+let num = 4;
+console.log(num);
+console.log(mum);
