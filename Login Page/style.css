@@ -8,8 +8,8 @@
 }
 
 body{
-    background-color: #b4f0a2;
-    background: linear-gradient(to right, #d2d7f3, #b7fcc9);
+    background-color: #4f3ce2;
+    background: linear-gradient(to right, #120441, #200236);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    background-color: #fff;
+    background-color: #2e32b1;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -29,6 +29,7 @@ body{
 }
 
 .container p{
+    color: #fff;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
@@ -40,14 +41,14 @@ body{
 }
 
 .container a{
-    color: #333;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
-    background-color: #2da833;
+    background-color: #5a2da8;
+    border-color: #fff;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -66,7 +67,8 @@ body{
 }
 
 .container form{
-    background-color: #fff;
+    background-color: #2e32b1;
+    background: linear-gradient(to right, #2e32b1, #9d37c3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +96,7 @@ body{
 }
 
 .sign-in{
+    color: #fff;
     left: 0;
     width: 50%;
     z-index: 2;
@@ -104,6 +107,7 @@ body{
 }
 
 .sign-up{
+    color: #fff;
     left: 0;
     width: 50%;
     opacity: 0;
@@ -156,19 +160,19 @@ body{
     height: 100%;
     overflow: hidden;
     transition: all 0.6s ease-in-out;
-    border-radius: 150px 0 0 100px;
+    border-radius: 0px 0 0 0px;
     z-index: 1000;
 }
 
 .container.active .toggle-container{
     transform: translateX(-100%);
-    border-radius: 0 150px 100px 0;
+    border-radius: 0 0px 0px 0;
 }
 
 .toggle{
     background-color: #512da8;
     height: 100%;
-    background: linear-gradient(to right, #8888cf, #1ca452);
+    background: linear-gradient(to right, #92289e, #501aba);
     color: #fff;
     position: relative;
     left: -100%;
